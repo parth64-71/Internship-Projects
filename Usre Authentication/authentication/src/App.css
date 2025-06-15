@@ -1,0 +1,126 @@
+/* General Styling */
+body {
+  font-family: 'Times New Roman', Times, serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 400px;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Headings */
+h2 {
+  display: block;
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Form Styling */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 14px;
+  width: 100%;
+}
+
+input:focus {
+  outline: none;
+  border-color: #666;
+}
+
+/* Button Styling */
+button {
+  margin-top: 20px;
+  margin-right: 50px;
+  padding: 10px 20px;
+  font-size: 14px;
+  color: #fff;
+  background-color: #999;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: #555;
+  color: #fff;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: #000;
+  font-weight: normal;
+  margin-top: 10px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Page-Specific Styling */
+.home {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.dashboard h2 {
+  font-size: 20px;
+  color: #000;
+}
+
+.logout-button {
+  width: 150px;
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+  .container {
+    width: 90%;
+    padding: 15px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  button {
+    font-size: 12px;
+  }
+
+  input {
+    font-size: 12px;
+  }
+}
